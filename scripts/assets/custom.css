@@ -1,0 +1,36 @@
+/* assets/custom.css */
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #f6f8fa;
+  color: #212529;
+}
+
+/* card tweaks */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* card headers */
+.card-header {
+  font-weight: 600;
+  background: transparent;
+  border-bottom: none;
+  font-size: 1.05rem;
+}
+
+/* graph container spacing */
+.graph-container {
+  padding: 0.5rem;
+}
+
+/* smaller text under titles */
+.card .card-body .small {
+  color: #6c757d;
+}
+
+/* adjust navbar */
+.navbar {
+  border-radius: 8px;
+}
