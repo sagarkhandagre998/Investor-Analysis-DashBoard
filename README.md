@@ -6,7 +6,7 @@ It allows filtering, YoY/QoQ comparisons, and top manufacturer insights for inve
 🚀 Setup Instructions
 1️⃣ Clone the Repository
 
-git clone https://github.com/<your-username>/Investor-Analysis-DashBoard.git
+git clone https://github.com/sagarkhandagre998/Investor-Analysis-DashBoard.git
 cd Investor-Analysis-DashBoard
 
 2️⃣ Create & Activate Virtual Environment
