@@ -33,3 +33,10 @@ python scripts\dashboard.py or py scripts\dashboard.py
 6️⃣ Access the Dashboard
   http://127.0.0.1:8050/
 
+🛠 Tech Stack
+  
+Python 3.9+
+Dash (for UI)
+Plotly (for graphs)
+Pandas (for data processing)
+
