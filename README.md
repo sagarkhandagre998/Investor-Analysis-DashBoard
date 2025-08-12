@@ -4,6 +4,7 @@ This project is a Dash + Plotly based interactive dashboard for analyzing vehicl
 It allows filtering, YoY/QoQ comparisons, and top manufacturer insights for investors.
 
 🚀 Setup Instructions
+
 1️⃣ Clone the Repository
 
 git clone https://github.com/sagarkhandagre998/Investor-Analysis-DashBoard.git
@@ -11,6 +12,7 @@ git clone https://github.com/sagarkhandagre998/Investor-Analysis-DashBoard.git
 cd Investor-Analysis-DashBoard
 
 2️⃣ Create & Activate Virtual Environment
+
 # Create venv
 python -m venv venv
 
@@ -21,6 +23,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 3️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
 5️⃣ Run the Application
