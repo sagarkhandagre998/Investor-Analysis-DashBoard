@@ -11,10 +11,7 @@ git clone https://github.com/sagarkhandagre998/Investor-Analysis-DashBoard.git
 
 cd Investor-Analysis-DashBoard
 
-2️⃣ Create & Activate Virtual Environment
-
-# Create venv
-python -m venv venv
+2️⃣ Activate Virtual Environment
 
 # Activate venv (Windows)
 venv\Scripts\activate
@@ -22,7 +19,7 @@ venv\Scripts\activate
 # Activate venv (Mac/Linux)
 source venv/bin/activate
 
-3️⃣ Install Dependencies
+3️⃣ Install Dependencies (if needed)
 
 pip install -r requirements.txt
 
@@ -36,7 +33,10 @@ python scripts\dashboard.py or py scripts\dashboard.py
 🛠 Tech Stack
   
 Python 3.9+
+
 Dash (for UI)
+
 Plotly (for graphs)
+
 Pandas (for data processing)
 
