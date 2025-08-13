@@ -3,6 +3,8 @@
 This project is a Dash + Plotly based interactive dashboard for analyzing vehicle registration trends across categories, manufacturers, and time periods.
 It allows filtering, YoY/QoQ comparisons, and top manufacturer insights for investors.
 
+Implementation and Video WalkThrough - https://drive.google.com/drive/folders/1YRmZFLMHhmstSdHGWupvujvyZobjpR90?usp=drive_link
+
 🚀 Setup Instructions
 
 1️⃣ Clone the Repository
