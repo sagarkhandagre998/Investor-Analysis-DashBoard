@@ -622,5 +622,17 @@ def update_maker_dropdown(selected_categories, start_date, end_date, current_mak
 # -------------------------
 # Run app
 # -------------------------
+import os
+
+server = app.server
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    is_production = os.environ.get("RENDER") is not None  # Render sets this env variable
+    debug_mode = not is_production
+
+    try:
+        # Dash >= 2.16
+        app.run(debug=debug_mode, port=8050)
+    except Exception:
+        # Dash < 2.16
+        app.run_server(debug=debug_mode, host="0.0.0.0", port=8050)
